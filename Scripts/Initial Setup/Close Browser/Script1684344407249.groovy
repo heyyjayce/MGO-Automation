@@ -17,24 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'USER ROLE: LHIAS'
-WebUI.setText(findTestObject('Login/input_My Greatway Office_email'), 'gw_lhia_dummy@yopmail.com')
-
-WebUI.setEncryptedText(findTestObject('Login/input_My Greatway Office_password'), '8SQVv/p9jVScEs4/2CZsLw==')
-
-WebUI.click(findTestObject('Login/button_Login'))
-
-WebUI.enableSmartWait()
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Main Page/Profile Dialog/div_Profile'))
-
-WebUI.verifyElementText(findTestObject('Main Page/Profile Dialog/div_user_LHIA'), 'Life Health Insurance Agent Supervisor')
-
-WebUI.click(findTestObject('Main Page/Profile Dialog/a_Logout'))
-
-WebUI.enableSmartWait()
-
-WebUI.takeFullPageScreenshot()
+'STAGING'
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

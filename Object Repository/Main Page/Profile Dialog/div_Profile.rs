@@ -10,11 +10,15 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[1]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'intro-x dropdown w-8 h-8']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.intro-x.dropdown.w-8.h-8</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,18 +26,18 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4a5b5630-26c4-417b-a3e3-87c964825a7d</webElementGuid>
+      <webElementGuid>3f335633-2d4b-4e17-8b4c-857732091669</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>intro-x dropdown w-8 h-8</value>
-      <webElementGuid>8e1f836a-b097-4bf6-96b2-243bb0265410</webElementGuid>
+      <webElementGuid>8716dd58-7bd7-4838-a8d6-6ce7e8952f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -68,7 +72,7 @@
             
         
     </value>
-      <webElementGuid>81117bbf-bd00-4241-88b3-86d481f365db</webElementGuid>
+      <webElementGuid>209d483c-ea55-474b-99ca-22c590a5a9a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;main&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;top-bar&quot;]/div[@class=&quot;intro-x dropdown w-8 h-8&quot;]</value>
-      <webElementGuid>ddba2a9b-b988-4ca3-845a-57146edaddcf</webElementGuid>
+      <webElementGuid>8ab936da-5072-468b-a6b7-e4df86e934af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[1]</value>
-      <webElementGuid>813d34b3-fc3c-45f2-beb1-f118fc17a2c9</webElementGuid>
+      <webElementGuid>0d7e126f-ffa1-4291-9f9a-9e83970e5845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide'])[1]/following::div[1]</value>
-      <webElementGuid>2b61d13e-abc0-4274-aa9f-8f6ebd4b8304</webElementGuid>
+      <webElementGuid>3f87e684-525c-44f9-ae71-c79d89e13921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]</value>
-      <webElementGuid>e94f3808-82a5-446f-90d9-974bb6de4ad3</webElementGuid>
+      <webElementGuid>dd5bc781-6fd5-4bc3-9550-2dc0553dd151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,6 +172,6 @@
             
         
     ')]</value>
-      <webElementGuid>83c99ab1-a688-4dd7-a251-f24082e6105d</webElementGuid>
+      <webElementGuid>99e60000-65ca-470b-a2af-7401dd81114d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

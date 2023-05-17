@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_user_Compliance</name>
+   <tag></tag>
+   <elementGuidId>8b769964-e558-4677-ac7c-9768d0e4fa84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='_o2nh1utf6']/div/div/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Compliance' or . = 'Compliance')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e2f7957d-a84b-424a-af24-6513c4501235</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs text-black mt-0.5 dark:text-gray-600</value>
+      <webElementGuid>94cb54db-8eb0-4b2b-8863-e35bff5fd5b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Compliance</value>
+      <webElementGuid>f7738060-0509-4b00-a7a0-d77afb9acffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;_o2nh1utf6&quot;)/div[@class=&quot;dropdown-menu__content box bg-white dark:bg-dark-6 text-black&quot;]/div[@class=&quot;p-4 border-b border-gray-800 dark:border-dark-3&quot;]/p[@class=&quot;text-xs text-black mt-0.5 dark:text-gray-600&quot;]</value>
+      <webElementGuid>b8505d72-2922-4e6f-a03a-9a5863999a30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='_o2nh1utf6']/div/div/p</value>
+      <webElementGuid>3327eb20-63b9-4f49-821c-950740d26c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan Carlo Karingal'])[1]/following::p[1]</value>
+      <webElementGuid>4255db7f-351c-4996-b0bb-7c8078c8cb6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::p[1]</value>
+      <webElementGuid>cfab8347-c85c-4210-b046-c2ca01fcb8df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Agent-Supervisor (Pilot)']/parent::*</value>
+      <webElementGuid>dc0e0ad6-ce9a-4580-8a0b-8be79ad330e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/p</value>
+      <webElementGuid>95f7560d-886c-455f-ab2e-787e12dfd8a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Agent-Supervisor (Pilot)' or . = 'Agent-Supervisor (Pilot)')]</value>
+      <webElementGuid>9efbac00-97ec-4194-8d7d-3f322a0b0ee4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

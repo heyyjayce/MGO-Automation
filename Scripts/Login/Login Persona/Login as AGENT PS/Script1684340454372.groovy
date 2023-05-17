@@ -24,7 +24,9 @@ WebUI.setEncryptedText(findTestObject('Login/input_My Greatway Office_password')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.waitForPageLoad(20)
+WebUI.enableSmartWait()
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Main Page/Profile Dialog/div_Profile'))
 
