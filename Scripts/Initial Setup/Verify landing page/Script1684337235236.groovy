@@ -21,3 +21,5 @@ WebUI.verifyElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'
 
 WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
 
+WebUI.closeBrowser()
+
