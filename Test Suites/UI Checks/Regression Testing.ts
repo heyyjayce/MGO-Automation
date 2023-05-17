@@ -29,7 +29,7 @@
       <guid>d55cfd77-fe6c-41de-aef9-17b19985335a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Verify Login - Basic (No OTP)</testCaseId>
+      <testCaseId>Test Cases/Login/Login Persona/Login as AGENT PS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

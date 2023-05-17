@@ -17,10 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'USER ROLE: AGENT-SUPERVISOR (PROVINCIAL SUPERVISOR ROLE)'
-WebUI.setText(findTestObject('Login/input_My Greatway Office_email'), 'jayce.karingal@yopmail.com')
+'STAGING'
+WebUI.openBrowser('https://mgo-stg.greatway.tools/')
 
-WebUI.setEncryptedText(findTestObject('Login/input_My Greatway Office_password'), 'r98I3Krbh9FjvLo+XsrGvA==')
+WebUI.verifyElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'), 10)
 
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Login/strong_My Greatway Office'), 10)
+
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

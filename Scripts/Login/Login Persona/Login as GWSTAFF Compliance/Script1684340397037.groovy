@@ -17,14 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'STAGING'
-WebUI.openBrowser('https://mgo-stg.greatway.tools/')
-
-WebUI.verifyElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'), 10)
-
-WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Login/strong_My Greatway Office'), 10)
-
-WebUI.closeBrowser()
-

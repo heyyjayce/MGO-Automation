@@ -17,7 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'), 10)
+'USER ROLE: AGENT-SUPERVISOR (PROVINCIAL SUPERVISOR ROLE)'
+WebUI.setText(findTestObject('Login/input_My Greatway Office_email'), 'jayce.karingal@yopmail.com')
 
-WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
+WebUI.setEncryptedText(findTestObject('Login/input_My Greatway Office_password'), 'r98I3Krbh9FjvLo+XsrGvA==')
+
+WebUI.click(findTestObject('Login/button_Login'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.click(findTestObject('Main Page/Profile Dialog/div_Profile'))
+
+WebUI.verifyElementText(findTestObject('Main Page/Profile Dialog/div_user_PS'), 'Agent-Supervisor (Pilot)')
+
+WebUI.click(findTestObject('Main Page/Profile Dialog/a_Logout'))
+
+WebUI.enableSmartWait()
+
+WebUI.takeFullPageScreenshot()
 

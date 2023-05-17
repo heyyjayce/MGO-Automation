@@ -17,7 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'), 10)
+'STAGING'
+WebUI.openBrowser('https://mgo-stg.greatway.tools/')
 
-WebUI.verifyElementClickable(findTestObject('Login/button_Login'))
+WebUI.waitForElementPresent(findTestObject('Login/img_My Greatway Office_mx-auto'), 10)
+
+WebUI.verifyElementClickable(findTestObject('Login/a_Forgot Password'))
+
+WebUI.click(findTestObject('Login/a_Forgot Password'))
+
+WebUI.waitForElementPresent(findTestObject('Forgot Password/p_Please enter your email address and we will send you a link to change your password'), 
+    0)
+
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

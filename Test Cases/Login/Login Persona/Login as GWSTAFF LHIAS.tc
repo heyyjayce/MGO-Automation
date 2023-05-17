@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OTP Validations</name>
+   <name>Login as GWSTAFF LHIAS</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8b79e5ef-3acd-420f-8380-13ec342ce126</testCaseGuid>
+   <testCaseGuid>cb73dd81-711c-4030-9c0d-fab638150394</testCaseGuid>
 </TestCaseEntity>
